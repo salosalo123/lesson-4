@@ -1,123 +1,119 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
-  width: 1920px;
-  height: 1429px;
-  margin-top: 51px;
-}
-
-.header {
-  width: 1920px;
-  height: 192px;
+  width: 1440px;
+  height: 1530px;
   background-color: #ffffff;
-  display: inline-block;
-  margin-top: 70px;
-  gap: 10px;
 }
-
+.header {
+  width: 1180px;
+  height: 96px;
+  margin: 38px 130px 0px 130px;
+  background-color: aqua;
+}
 .logo {
-  width: 154px;
-  height: 45px;
-  margin-left: 45px;
-  font-weight: 700;
-  margin-top: 6px;
-  vertical-align: bottom;
+  width: 180px;
+  height: 96px;
+  margin: 1px 300px 0 0;
+  vertical-align: top;
 }
-
 nav,
 nav ul li {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
-.home-button {
-  width: 564px;
-  height: 23px;
-  margin-left: 30px;
+
+nav {
+  width: 469px;
+  height: 26px;
+  margin-left: 220px;
+  padding-top: 20px;
 }
 .nav {
-  margin-left: 20px;
-  color: #274c5b;
+  font-family: "Inter";
+  width: 70px;
+  height: 24px;
   font-size: 20px;
-  font-weight: 700;
-  line-height: 23.44px;
-  font-family: "Roboto";
-}
-.main-section {
-  width: 1920px;
-  height: 624px;
-  background-color: #f9f8f8;
-  display: inline-block;
-}
-.main-div {
-  width: 1400px;
-  height: 624px;
-  margin-left: 260px;
-  gap: 91px;
-  display: inline-block;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: #2414db;
+  margin-left: 60px;
 }
 
-.narural-produsts {
-  width: 1400px;
-  height: 624px;
+.active {
+  color: #f50808;
 }
-.choose {
-  font-family: "Yellowtail", cursive;
-  color: #7eb693;
+
+/* main section1 */
+.imag-rectangle {
+  width: 780px;
+  height: 116px;
+  margin: 120px 0 120px 130px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+.image1 {
+  width: 1440px;
+  height: 478px;
+}
+.welcome {
+  width: 210;
+  height: 44px;
   font-size: 36px;
-  font-weight: 400;
-  line-height: 49px;
+  line-height: 43.57px;
+  color: #17326e;
+  margin-bottom: 24px;
 }
-h1 {
-  width: 524px;
-  height: 118px;
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 59px;
-  font-family: "Roboto";
-  color: #274c5b;
+.text-welcome {
+  width: 780px;
+  height: 48px;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #090346;
 }
 
-.simply {
-  width: 671px;
-  height: 60px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-  font-family: "Open Sans", sans-serif;
-  color: #525c60;
+/* section cars 3 */
+.cars3 {
+  width: 1440px;
+  height: 439px;
+  background-color: #ebebf0;
+  padding: 121px 40px 121px 130px;
 }
-.icon {
-  width: 19px;
-  height: 19px;
+.carimg {
+  margin-right: 20px;
 }
-.persent {
-  width: 339px;
-  height: 81px;
-  background-color: #ececec;
-  padding: 29px 91px 29px 27px;
-  gap: 10px;
-  align-items: center;
-  font-family: "Roboto";
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 23px;
-  color: #274c5b;
-}
-.second-paragraf {
-  width: 504px;
-  height: 60px;
-  padding: 0px 0px 0px 60px;
-  gap: 10px;
-  font-size: 18px;
-  line-height: 29px;
-  font-weight: 400;
-  color: #525c60;
-  font-family: "Open Sans", sans-serif;
-}
-div > img {
-  width: 678px;
-  height: 579px;
+
+/* section footer */
+
+.footer {
+  width: 1440px;
+  height: 161px;
+  background-color: #19126b;
   display: inline-block;
+}
+.logos {
+  vertical-align: middle;
+  margin-left: 130px;
+}
+
+.logo {
+  margin: 50px 20px 51px 0px;
+  width: 60px;
+  height: 60px;
+}
+
+footer div {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.copyright {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 600px;
+  margin-right: 130px;
 }
