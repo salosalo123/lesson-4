@@ -46,7 +46,7 @@ nav ul li {
 }
 .main-section {
   width: 1920px;
-  height: 624px;
+  height: 1050px;
   background-color: #f9f8f8;
   display: inline-block;
 }
@@ -116,8 +116,59 @@ h1 {
   color: #525c60;
   font-family: "Open Sans", sans-serif;
 }
-div > img {
+.picture {
   width: 678px;
   height: 579px;
-  display: inline-block;
+  /* display: inline-block;
+  vertical-align: top; */
+}
+
+.conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* footer conteiner  */
+
+.conteiner-footer {
+  width: 1118px;
+  height: 335px;
+  gap: 30px;
+  margin-left: 320px;
+  padding-left: 141px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 91px;
+}
+
+.little-conteiner {
+  width: 257px;
+  height: 335px;
+  background-color: #ffffff;
+  /* padding-left: 30px; */
+}
+
+.policy {
+  width: 152px;
+  height: 26px;
+  margin: 29px 83px 0 22px;
+  /* margin-top: 29px;
+  margin-left: 22px; */
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  color: #274c5b;
+  text-align: center;
+}
+.polic-paragrap {
+  padding: 20px 37px 0 36px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #525c60;
 }
